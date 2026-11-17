@@ -16,8 +16,7 @@
 > - Connected to my portable KYY second monitor over USB-C. It showed "C1" (signal detected) but stayed blank
 > - Tested the monitor (it worked with my other laptop) and tried both ports
 > - Found out the Mac was sitting idle at the login screen and not sending a video signal
-> - Logged in blind: Confirmed laptop was awake by using Caps Lock light, typed my password, then the display came up (after using **Command + F1** to screen mirror)
-> [!TIP]
+> - Logged in blind: Confirmed laptop was awake by using Caps Lock light, typed my password, then the display came up (after using **Command + F1** to screen mirror).
 > **Lesson: Check what the system is doing, not just the hardware.**
 > The monitor showing "C1" meant the cable and port were working. The real problem was that the Mac was sitting at the login screen and wasn't sending video yet. Along the way I learned that USB-C ports and cables don't all carry the same things (some carry only power or data, not video), and that Command + F1 toggles screen mirroring. I could have given up when the screen stayed blank, but testing one possibility at a time is what got it working.
 
