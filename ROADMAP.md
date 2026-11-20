@@ -11,10 +11,13 @@
 - [x] Create the GitHub repo and document
 
 ## Phase 2 – Remote access and containers
-- [ ] Install Tailscale on the server, my M2 and my phone
-- [ ] Confirm SSH works over Tailscale from outside my home network
-- [ ] Install OrbStack and run a test container (Uptime Kuma)
-- [ ] Write 02-remote-access.md
+- [x] Connect over SSH and verify the server's host key fingerprint
+- [x] Switch to key-only SSH and disable password login
+- [x] Install Tailscale on the server, my M2 and my phone
+- [x] Confirm SSH works over Tailscale from outside my home network
+- [x] Install OrbStack and run a test container (Uptime Kuma)
+- [x] Test that monitoring catches an outage
+- [x] Write 02-remote-access.md
 
 ## Phase 3 – CIS hardening
 - [ ] Download the CIS Apple macOS benchmark for my version
