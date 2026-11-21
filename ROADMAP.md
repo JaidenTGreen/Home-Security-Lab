@@ -52,7 +52,9 @@
 
 ## Phase 7 – Attack validation
 - [ ] Set up a Kali VM in UTM on my M2
-- [ ] Nmap scan the server before and after hardening, and compare
+- [ ] Attempt an SSH password brute-force and confirm key-only login blocks it
+- [ ] Enumerate services from Kali and compare with my Phase 3 results
+- [ ] Confirm Wazuh detects the attacks
 - [ ] Write 07-attack-validation.md
 
 ## Phase 8 – Identity
@@ -62,7 +64,7 @@
 ## Phase 9 – Finishing Touches
 - [ ] Draw a network diagram
 - [ ] Update the README status and resume bullets
-- [ ] Apply to Garmin, and keep updating the repo after applying
+- [ ] Apply to cybersecuriy jobs, and keep updating the repo after applying
 
 ## Ongoing
 - [x] Check the battery for swelling every week
