@@ -103,7 +103,8 @@ I keep **auditing against the full CIS baseline**, so these still show up as hon
 - **Safety check:** I searched the generated profile for the four removed settings to make sure none were hiding in it.
 - **Reviewed the values:** minimum password length 15, lockout after 5 failed attempts, screensaver after 15 minutes, screen lock 5 seconds after that.
 - **Fixed a gap:** the profile set a lockout limit but no lockout duration. With me as the only admin, a few typos could have locked me out indefinitely. I added `minutesUntilFailedLoginReset` = 15 (matching CIS guidance) and validated the file with `plutil -lint`.
-- **Changed my password first:** mine was 11 characters, so I changed it to 16 **through System Settings** (so the login Keychain updated too), then re-checked auto-login and ran a reboot test.  
+- **Changed my password first:** mine was 11 characters, so I changed it to 16 **through System Settings** (so the login Keychain updated too), then re-checked auto-login and ran a reboot test.
+
 ![CIS profile installed](../images/03-cis-profile-installed.png)
  
 ### A Tooling Surprise
