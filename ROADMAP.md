@@ -20,12 +20,16 @@
 - [x] Write 02-remote-access.md
 
 ## Phase 3 – CIS hardening
-- [ ] Download the CIS Apple macOS benchmark for my version
-- [ ] Record the baseline: which controls pass or fail before changes
-- [ ] Apply the controls (firewall stealth mode, screen lock, sharing services turned off, automatic updates, etc.)
-- [ ] Document the exceptions I accepted (FileVault off) and why
-- [ ] Re-check and record the before/after results
-- [ ] Write 03-cis-hardening.md
+- [x] Run baseline Nmap scans of the server over the LAN and Tailscale
+- [x] Generate a CIS Level 1 baseline for macOS 27 with NIST's mSCP
+- [x] Record the baseline audit score (27/96)
+- [x] Reduce network exposure (stealth mode, firewall permissions, unneeded services)
+- [x] Build and install a tailored configuration profile, excluding rules that conflict with the server
+- [x] Harden sudo and enable audit logging
+- [x] Close unneeded ports (Kerberos disabled, Uptime Kuma restricted to Tailscale)
+- [x] Document accepted exceptions, false failures and a tool bug
+- [x] Re-run the audit and Nmap scans for before/after results (84/96)
+- [x] Write 03-cis-hardening.md
 
 ## Phase 4 – Vulnerability management
 - [ ] Install Nessus Essentials
