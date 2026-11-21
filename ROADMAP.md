@@ -31,12 +31,16 @@
 - [x] Re-run the audit and Nmap scans for before/after results (84/96)
 - [x] Write 03-cis-hardening.md
 
-## Phase 4 – Vulnerability management
-- [ ] Install Nessus Essentials
-- [ ] Scan the server and devices I own
-- [ ] Sort the findings by severity and track them in a table
-- [ ] Fix them, rescan, and record what was resolved
-- [ ] Write 04-vulnerability-management.md
+## Phase 4 – Vulnerability management ✅
+- [x] Install Nessus Essentials on my main Mac and verify its code signature
+- [x] Scan the server, router and workstation
+- [x] Triage findings by CVSS, VPR and EPSS, and track them in a table
+- [x] Remove unused software and its leftover root helpers, then rescan to confirm
+- [x] Restrict Nessus's own web interface to localhost
+- [x] Disable Bonjour service advertising on the server
+- [x] Review router settings (WPS off, no port forwards, remote access off)
+- [x] Test WPA3 and measure its performance cost
+- [x] Write 04-vulnerability-management.md
 
 ## Phase 5 – Python automation
 - [ ] Write a script that turns Nessus results or failed-login logs into a daily report
