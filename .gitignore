@@ -224,3 +224,6 @@ __marimo__/
 .env
 *.key
 *.pem
+
+known_access.json
+baselines/
